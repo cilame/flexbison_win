@@ -1,5 +1,5 @@
 @echo off
-SET PATH=%PATH%;%~dp0tools\bin
+SET PATH=%PATH%;%~dp0tools\bin;%~dp0tools\tcc
 @echo on
 
 .\tools\bin\bison.exe -vdty c.y
